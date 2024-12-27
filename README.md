@@ -1,8 +1,8 @@
 # Relational-Database-Projects
 
-# Bash Project - 170 Lessons
+## Bash Project - 170 Lessons
 
-## Project Description
+### Project Description
 
 The terminal allows you to send text commands to your computer to manipulate the file system, run programs, automate tasks, and much more.
 
@@ -10,7 +10,7 @@ In this **170-lesson** course, I learned the essential terminal commands by crea
 
 ---
 
-## What I Learned
+### What I Learned
 
 1. **Terminal Navigation**
 
@@ -29,15 +29,15 @@ In this **170-lesson** course, I learned the essential terminal commands by crea
 
 ---
 
-# Mario Database Project -165 Lessons
+## Mario Database Project -165 Lessons
 
-## Project Description
+### Project Description
 
 This project involved designing, creating, and managing a relational database in **PostgreSQL** to model information related to characters, actions, and sounds from the Mario universe. Through this project, I applied fundamental concepts of relational databases and SQL queries to explore and manipulate data effectively.
 
 ---
 
-## What I Learned
+### What I Learned
 
 1. **Relational Database Fundamentals**
 
