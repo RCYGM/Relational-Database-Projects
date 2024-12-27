@@ -63,7 +63,7 @@ The project was developed as part of an exam to evaluate proficiency in relation
 
 This project reflects a thorough understanding of relational database design principles, practical SQL skills, and the ability to model and query complex relationships effectively.
 
-## Mario Database Project - course #2 | - 165 Lessons
+## Mario Database Project | course #2 -165 Lessons
 
 ### Project Description
 
@@ -97,7 +97,7 @@ This project involved designing, creating, and managing a relational database in
 
 ---
 
-## Bash Project - course #1 | - 170 Lessons
+## Bash Project | course #1 -170 Lessons
 
 ### Project Description
 
