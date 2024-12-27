@@ -59,9 +59,9 @@ The project was developed as part of an exam to evaluate proficiency in relation
 4. **Complex Queries**
    - Query results demonstrate interrelated data retrieval, like identifying all moons of planets within a specific galaxy or missions targeting specific stars.
 
----
-
 This project reflects a thorough understanding of relational database design principles, practical SQL skills, and the ability to model and query complex relationships effectively.
+
+---
 
 ## Mario Database Project | course #2 - 165 Lessons
 
