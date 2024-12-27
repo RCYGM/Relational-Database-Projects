@@ -1,34 +1,5 @@
 # Relational-Database-Projects
 
-## Bash Project - 170 Lessons
-
-### Project Description
-
-The terminal allows you to send text commands to your computer to manipulate the file system, run programs, automate tasks, and much more.
-
-In this **170-lesson** course, I learned the essential terminal commands by creating a website boilerplate structure using only the command line.
-
----
-
-### What I Learned
-
-1. **Terminal Navigation**
-
-   - Commands to move between directories and list files.
-
-2. **File and Directory Management**
-
-   - Creating, deleting, and manipulating files and folders directly from the terminal.
-
-3. **Task Automation**
-
-   - Using scripts to execute repetitive processes and simplify workflows.
-
-4. **Building a Website Structure**
-   - Creating a complete website boilerplate, organizing HTML, CSS, and JavaScript files.
-
----
-
 ## Mario Database Project -165 Lessons
 
 ### Project Description
@@ -60,5 +31,34 @@ This project involved designing, creating, and managing a relational database in
 5. **Relationship Modeling**
    - Designed "one-to-one" relationships between tables like `characters` and `more_info`.
    - Implemented "many-to-many" relationships using junction tables like `character_actions`.
+
+---
+
+## Bash Project - 170 Lessons
+
+### Project Description
+
+The terminal allows you to send text commands to your computer to manipulate the file system, run programs, automate tasks, and much more.
+
+In this **170-lesson** course, I learned the essential terminal commands by creating a website boilerplate structure using only the command line.
+
+---
+
+### What I Learned
+
+1. **Terminal Navigation**
+
+   - Commands to move between directories and list files.
+
+2. **File and Directory Management**
+
+   - Creating, deleting, and manipulating files and folders directly from the terminal.
+
+3. **Task Automation**
+
+   - Using scripts to execute repetitive processes and simplify workflows.
+
+4. **Building a Website Structure**
+   - Creating a complete website boilerplate, organizing HTML, CSS, and JavaScript files.
 
 ---
