@@ -1,5 +1,68 @@
 # Relational-Database-Projects
 
+## Universe Database Project - Examination
+
+### Project Description
+
+This project focused on designing, creating, and managing a relational database in **PostgreSQL** to model an expansive representation of the universe. The database incorporates galaxies, stars, planets, moons, and exploration missions, each with interconnected relationships and meaningful data points.
+
+The project was developed as part of an exam to evaluate proficiency in relational database design, SQL syntax, and query building, showcasing a comprehensive understanding of complex data relationships.
+
+---
+
+### What I Learned
+
+1. **Relational Database Fundamentals**
+
+   - Created and managed tables with "one-to-many" and "many-to-one" relationships.
+   - Ensured proper schema design with constraints to enforce data integrity.
+
+2. **Schema Design and Constraints**
+
+   - Utilized `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, and `UNIQUE` constraints to model realistic relationships.
+   - Applied consistent naming conventions for columns, particularly for primary and foreign keys.
+
+3. **SQL Syntax and Querying**
+
+   - Executed complex SQL queries using `JOIN` to combine data across multiple tables.
+   - Implemented advanced filters with `WHERE`, `GROUP BY`, and `HAVING` clauses for data manipulation.
+
+4. **Table Design and Population**
+
+   - Modeled the universe with five main entities: `galaxy`, `star`, `planet`, `moon`, and `exploration_mission`.
+   - Populated each table with real and hypothetical data to reflect diversity and complexity.
+
+5. **Data Export**
+   - Utilized tools like `pg_dump` to create and manage `.sql` scripts for portability and sharing.
+
+---
+
+### Key Features of the Universe Database
+
+1. **Entity Relationships**
+
+   - **Galaxies:** Serve as the foundational entities, linked to stars.
+   - **Stars:** Interconnected with galaxies and planets, representing stellar systems.
+   - **Planets:** Host moons and are tied to stars, enabling planetary exploration modeling.
+   - **Moons:** Include geological and compositional details, tied to parent planets.
+   - **Exploration Missions:** Track objectives, crew size, budgets, and results.
+
+2. **Data Constraints**
+
+   - Consistent use of `SERIAL` for auto-incrementing primary keys.
+   - Foreign key relationships ensure referential integrity across tables.
+
+3. **Scalable Schema**
+
+   - Tables are designed to accommodate further data expansion, such as additional celestial bodies or missions.
+
+4. **Complex Queries**
+   - Query results demonstrate interrelated data retrieval, like identifying all moons of planets within a specific galaxy or missions targeting specific stars.
+
+---
+
+This project reflects a thorough understanding of relational database design principles, practical SQL skills, and the ability to model and query complex relationships effectively.
+
 ## Mario Database Project -165 Lessons
 
 ### Project Description
