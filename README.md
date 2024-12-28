@@ -1,5 +1,88 @@
 # Relational-Database-Projects
 
+## Learn Bash Scripting by Building Five Programs | Course #3 - 220 Lessons
+
+### Project Description
+
+This project focused on mastering Bash scripting by building **five unique programs** that showcase automation, logic, and terminal command execution. These programs, created over 220 lessons, demonstrate the versatility of Bash scripts in managing tasks and enhancing productivity.
+
+---
+
+### What I Learned
+
+1. **Bash Scripting Basics**
+
+   - Gained a foundational understanding of Bash syntax and structure.
+   - Learned how to execute scripts and pass arguments.
+
+2. **Conditional Logic**
+
+   - Utilized `if`, `elif`, and `else` statements for decision-making in scripts.
+   - Implemented comparison operators (`-eq`, `-lt`, `-gt`, etc.) and pattern matching with `[[ ... ]]`.
+
+3. **Looping**
+
+   - Mastered `for`, `while`, and `until` loops to iterate through tasks and conditions effectively.
+
+4. **Functions**
+
+   - Encapsulated reusable logic into functions for cleaner, more modular scripts.
+
+5. **Randomization and Arrays**
+
+   - Explored the `RANDOM` variable to generate random numbers.
+   - Created and managed arrays to store and access dynamic data.
+
+6. **User Interaction**
+   - Integrated user input and validation into scripts for interactive functionality.
+
+---
+
+### Key Features of Each Program
+
+1. **Questionnaire**
+
+   - An interactive script that asks the user for personal information and outputs a summary:
+     - **Questions:** Name, location, and favorite coding website.
+     - **Key Commands:** `read`, `echo`.
+     - **File:** :contentReference[oaicite:0]{index=0}.
+
+2. **Countdown Timer**
+
+   - A script that counts down from a user-defined number to zero with a 1-second pause:
+     - **Loop:** `while` loop to decrement values.
+     - **Key Feature:** Validation of positive integers.
+     - **File:** :contentReference[oaicite:1]{index=1}.
+
+3. **Bingo Number Generator**
+
+   - Generates a random Bingo number (1-75) with its associated letter (`B`, `I`, `N`, `G`, `O`):
+     - **Randomization:** Utilizes the `RANDOM` variable for number generation.
+     - **Conditional Logic:** Assigns a letter based on ranges using `if-elif` statements.
+     - **File:** :contentReference[oaicite:2]{index=2}.
+
+4. **Fortune Teller**
+
+   - An interactive program that generates random fortunes based on user questions:
+     - **Array Management:** Stores predefined responses.
+     - **Validation:** Ensures user input ends with a question mark (`?`).
+     - **File:** :contentReference[oaicite:3]{index=3}.
+
+5. **Master Script**
+   - Executes all four scripts sequentially to showcase their functionality:
+     - **Script Execution:** Calls each program in a specific order.
+     - **File:** :contentReference[oaicite:4]{index=4}.
+
+### Key Takeaways
+
+- **Automation:** Leveraged Bash scripting to automate repetitive tasks and execute complex workflows.
+- **User Validation:** Built interactive scripts with input validation to ensure meaningful responses.
+- **Structured Programming:** Applied modular programming principles with functions and loops for maintainability.
+
+This project reflects an in-depth understanding of Bash scripting, empowering me to create efficient, automated solutions to everyday tasks.
+
+---
+
 ## Universe Database Project - Examination #1
 
 ### Project Description
