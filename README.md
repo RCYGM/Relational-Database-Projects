@@ -1,5 +1,98 @@
 # Relational-Database-Projects
 
+## Project Description
+
+In these courses, I used professional development tools such as Visual Studio Code, PostgreSQL, and the Linux/Unix command line to complete interactive tutorials and build practical projects.
+
+I mastered essential terminal commands, from navigating and manipulating a file system to programming in Bash and performing advanced tasks, optimizing my workflow and automating key processes.
+
+Additionally, I designed and managed relational databases with PostgreSQL, using SQL as the language to interact with these databases. I learned how to structure, query, and automate data management efficiently and professionally.
+
+Finally, I worked with Git, the version control system, which allowed me to manage my code securely and collaborate on projects effectively, consolidating essential skills for any developer.
+
+Below, I will present my learning path, organized from the most recent course to the oldest, showing how I progressively built my knowledge step by step.
+
+---
+
+## Students Database Initial | Part 1 | Course #4 - 140 Lessons
+
+### Project Description
+
+In this project, I focused on designing and automating the management of a relational database in **PostgreSQL** to record information about students, their majors, and the courses they take. The main goal was to build a Bash script that processed CSV files and automated data insertion, ensuring relationships between tables were properly implemented.
+
+---
+
+### What I Learned
+
+1. **Automation with Bash**
+
+   - Reading and processing data from CSV files using `while` loops and field separators (`IFS`).
+   - Executing SQL queries within the script to insert data dynamically.
+
+2. **Dynamic SQL Queries**
+
+   - Designing queries to validate and retrieve information before performing inserts.
+   - Handling null values for missing data, ensuring consistency in records.
+
+3. **Database Backups**
+
+   - Using `pg_dump` to create a SQL file that backs up the database structure and complete data.
+
+---
+
+### Project Features
+
+1. **Relational Tables**
+
+   - **students:** Main table storing information about students, including first name, last name, major, and GPA.
+   - **majors:** Contains the available academic majors.
+   - **courses:** Lists the offered courses.
+   - **majors_courses:** Links majors to the required courses.
+
+2. **Process Automation**
+
+   - Reading the `courses.csv` file to insert majors and courses, establishing relationships in `majors_courses`.
+   - Reading the `students.csv` file to register students and associate them with their majors and courses.
+
+3. **Validations**
+
+   - Verifying the existence of data before performing inserts.
+   - Assigning null values (`NULL`) when no information about majors is found.
+
+4. **Complete Backup**
+
+   - Generating a `students.sql` file to allow reconstruction of the database with its complete information and structure.
+
+---
+
+### Bash Script Workflow (`insert_data.sh`)
+
+1. **Initialization**
+
+   - Truncating existing tables (`students`, `majors`, `courses`, and `majors_courses`) to reset the data.
+
+2. **Course Processing**
+
+   - Inserting majors and courses, validating their prior existence.
+   - Linking majors with courses in the `majors_courses` table.
+
+3. **Student Processing**
+
+   - Registering students and associating them with their majors and GPAs.
+   - Handling missing major data with null values.
+
+4. **Progress Messages**
+
+   - Printing informative messages for each insertion to monitor progress.
+
+5. **Final Export**
+
+   - Creating the `students.sql` file as a backup and migration tool for the database.
+
+This project represents a significant step forward in managing relational databases and automating tasks with Bash, demonstrating how to integrate fundamental SQL concepts with automated processes for efficient data management.
+
+---
+
 ## Learn Bash Scripting by Building Five Programs | Course #3 - 220 Lessons
 
 ### Project Description
