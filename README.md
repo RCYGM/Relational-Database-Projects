@@ -14,15 +14,108 @@ Below, I will present my learning path, organized from the most recent course to
 
 ---
 
-## Students Database Initial | Part 1 | Course #4 - 140 Lessons
+# Students Database | Part 2 | Course #4 - 140 Lessons
 
-### Project Description
+## Project Description
+
+In this project, I focused on completing the development of a relational database in **PostgreSQL**, integrating multiple tables using advanced SQL commands, specifically those related to `JOIN`. The main goal was to deepen my understanding of managing relational databases by efficiently querying and relating data from different tables.
+
+---
+
+## What I Learned
+
+1. **Advanced SQL Commands**
+
+   - Using `JOIN` to combine data from multiple tables.
+   - Applying operators and functions like `MIN`, `MAX`, `COUNT`, `AVG`, `ROUND`, and `DISTINCT` in queries.
+   - Utilizing aliases for tables and columns to improve query readability.
+
+2. **Filtering and Grouping**
+
+   - Implementing `GROUP BY` and `HAVING` to group data and apply specific conditions to groups.
+   - Efficient filtering using logical operators like `AND`, `OR`, and `NOT`.
+
+3. **Query Automation**
+
+   - Using Bash to execute SQL queries and dynamically process results.
+   - Generating specific reports based on complex queries.
+
+4. **Managing Complex Relationships**
+
+   - Designing and executing queries to analyze relationships between students, majors, and courses.
+   - Identifying missing or inconsistent data in the database.
+
+---
+
+## Project Features
+
+1. **Table Relationships**
+
+   - **students:** Stores information about students, including first name, last name, major, and GPA.
+   - **majors:** Contains the available academic majors.
+   - **courses:** Lists the offered courses.
+   - **majors_courses:** Links majors to their required courses.
+
+2. **Data Combination with `JOIN`**
+
+   - Integrating multiple tables to retrieve combined information, such as students with their courses and majors.
+   - Using `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, and `FULL JOIN` to meet different query needs.
+
+3. **Validations and Filtering**
+
+   - Filtering data to display only those meeting specific criteria, such as students without a major or unique courses.
+   - Identifying duplicate or missing records.
+
+4. **Optimized Queries**
+
+   - Generating reports such as:
+     - Majors with enrolled students.
+     - Unique courses not being taken.
+     - Students meeting specific criteria (e.g., GPA above 3.8).
+
+5. **Automation**
+
+   - Using Bash scripts to execute and process queries automatically.
+
+---
+
+## Project Workflow
+
+1. **Initialization**
+
+   - Importing the `students`, `majors`, `courses`, and `majors_courses` tables into PostgreSQL.
+   - Setting up foreign keys and relationships between tables.
+
+2. **Data Combination and Analysis**
+
+   - Integrating tables using `JOIN` to analyze relationships between students, majors, and courses.
+   - Using comparison operators and aggregation functions to generate statistics and reports.
+
+3. **Report Generation**
+
+   - Creating specific SQL queries to obtain:
+     - Courses with only one student.
+     - Students without a major.
+     - Average GPA by major.
+
+4. **Optimization and Backup**
+
+   - Using aliases to improve query readability.
+   - Generating backups of the database with the new relationships and reports.
+
+This project represents a significant step forward in managing relational databases, diving into advanced SQL concepts, and improving the ability to analyze related data efficiently.
+
+---
+
+# Students Database Initial | Part 1 | Course #4 - 140 Lessons
+
+## Project Description
 
 In this project, I focused on designing and automating the management of a relational database in **PostgreSQL** to record information about students, their majors, and the courses they take. The main goal was to build a Bash script that processed CSV files and automated data insertion, ensuring relationships between tables were properly implemented.
 
 ---
 
-### What I Learned
+## What I Learned
 
 1. **Automation with Bash**
 
@@ -40,7 +133,7 @@ In this project, I focused on designing and automating the management of a relat
 
 ---
 
-### Project Features
+## Project Features
 
 1. **Relational Tables**
 
@@ -65,7 +158,7 @@ In this project, I focused on designing and automating the management of a relat
 
 ---
 
-### Bash Script Workflow (`insert_data.sh`)
+## Bash Script Workflow (`insert_data.sh`)
 
 1. **Initialization**
 
@@ -101,7 +194,7 @@ This project focused on mastering Bash scripting by building **five unique progr
 
 ---
 
-### What I Learned
+## What I Learned
 
 1. **Bash Scripting Basics**
 
@@ -131,7 +224,7 @@ This project focused on mastering Bash scripting by building **five unique progr
 
 ---
 
-### Key Features of Each Program
+## Key Features of Each Program
 
 1. **Questionnaire**
 
@@ -166,7 +259,7 @@ This project focused on mastering Bash scripting by building **five unique progr
      - **Script Execution:** Calls each program in a specific order.
      - **File:** :contentReference[oaicite:4]{index=4}.
 
-### Key Takeaways
+## Key Takeaways
 
 - **Automation:** Leveraged Bash scripting to automate repetitive tasks and execute complex workflows.
 - **User Validation:** Built interactive scripts with input validation to ensure meaningful responses.
@@ -176,9 +269,9 @@ This project reflects an in-depth understanding of Bash scripting, empowering me
 
 ---
 
-## Universe Database Project - Examination #1
+# Universe Database Project - Examination #1
 
-### Project Description
+## Project Description
 
 This project focused on designing, creating, and managing a relational database in **PostgreSQL** to model an expansive representation of the universe. The database incorporates galaxies, stars, planets, moons, and exploration missions, each with interconnected relationships and meaningful data points.
 
@@ -186,7 +279,7 @@ The project was developed as part of an exam to evaluate proficiency in relation
 
 ---
 
-### What I Learned
+## What I Learned
 
 1. **Relational Database Fundamentals**
 
@@ -213,7 +306,7 @@ The project was developed as part of an exam to evaluate proficiency in relation
 
 ---
 
-### Key Features of the Universe Database
+## Key Features of the Universe Database
 
 1. **Entity Relationships**
 
@@ -239,15 +332,15 @@ This project reflects a thorough understanding of relational database design pri
 
 ---
 
-## Mario Database Project | course #2 - 165 Lessons
+# Mario Database Project | course #2 - 165 Lessons
 
-### Project Description
+## Project Description
 
 This project involved designing, creating, and managing a relational database in **PostgreSQL** to model information related to characters, actions, and sounds from the Mario universe. Through this project, I applied fundamental concepts of relational databases and SQL queries to explore and manipulate data effectively.
 
 ---
 
-### What I Learned
+## What I Learned
 
 1. **Relational Database Fundamentals**
 
@@ -273,9 +366,9 @@ This project involved designing, creating, and managing a relational database in
 
 ---
 
-## Bash Project | course #1 - 170 Lessons
+# Bash Project | course #1 - 170 Lessons
 
-### Project Description
+## Project Description
 
 The terminal allows you to send text commands to your computer to manipulate the file system, run programs, automate tasks, and much more.
 
@@ -283,7 +376,7 @@ In this **170-lesson** course, I learned the essential terminal commands by crea
 
 ---
 
-### What I Learned
+## What I Learned
 
 1. **Terminal Navigation**
 
