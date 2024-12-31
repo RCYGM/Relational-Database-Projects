@@ -14,7 +14,74 @@ Below, I will present my learning path, organized from the most recent course to
 
 ---
 
-# Students Database | Part 2 | Course #4 - 140 Lessons
+# World Cup - Examination #2
+
+## Project Description
+
+This project focuses on designing, creating, and managing a relational database in **PostgreSQL** to model the World Cup tournament. The database incorporates teams, games, rounds, and results, with interconnected relationships and meaningful data points.
+
+The project was developed as an examination to evaluate proficiency in relational database design, SQL syntax, and query creation, demonstrating a comprehensive understanding of data relationships and analysis.
+
+---
+
+## What I Learned
+
+1. **Relational Database Fundamentals**
+
+   - Created and managed tables with "one-to-many" and "many-to-one" relationships.
+   - Ensured proper schema design with constraints to maintain data integrity.
+
+2. **Schema Design and Constraints**
+
+   - Utilized `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, and `UNIQUE` constraints to model realistic relationships.
+   - Applied consistent naming conventions for columns, particularly for primary and foreign keys.
+
+3. **SQL Syntax and Querying**
+
+   - Executed complex SQL queries using `JOIN` to combine data across multiple tables.
+   - Implemented advanced filters with `WHERE`, `GROUP BY`, and `HAVING` clauses for data manipulation.
+
+4. **Table Design and Population**
+
+   - Modeled the tournament with two main entities: `teams` and `games`.
+   - Populated the tables with structured and realistic data to reflect the diversity and complexity of the matches.
+
+5. **Automation of Queries and Data Loading**
+
+   - Created Bash scripts to automate data insertion from CSV files.
+   - Developed scripts to generate results based on predefined queries, enabling automated analysis.
+
+---
+
+## Key Features of the World Cup Database
+
+1. **Entity Relationships**
+
+   - **Teams (`teams`):** Contains unique information for each team, such as its name.
+   - **Games (`games`):** Records details of each match, including winning and opposing teams, along with goals scored.
+
+2. **Data Constraints**
+
+   - Consistent use of `SERIAL` for auto-incrementing primary keys.
+   - Foreign key relationships ensure referential integrity between teams and games.
+
+3. **Scalable Schema**
+
+   - Tables are designed to accommodate additional data in the future, such as new rounds or teams.
+
+4. **Complex Queries**
+
+   - Queries include detailed results such as:
+     - Total goals scored by winning teams.
+     - Unique teams that participated in specific rounds.
+     - Average goals per match and team, rounded to two decimal places.
+     - Names of champions for each tournament.
+
+This project reflects a strong understanding of relational database design principles, practical SQL skills, and the ability to effectively model and query complex relationships.
+
+---
+
+# Students Database | Part 2 | Course #4 - 139 Lessons
 
 ## Project Description
 
