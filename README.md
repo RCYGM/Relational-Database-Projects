@@ -14,6 +14,59 @@ Below, I will present my learning path, organized from the most recent course to
 
 ---
 
+# Kitty Ipsum Translator Project | Course #6 - 140 Lessons
+
+## Project Description
+
+In this project, I learned how to work with advanced Bash commands to manipulate text files and perform content transformations. The goal was to create a "Kitty Ipsum" to "Doggy Ipsum" translator using various commands to modify and automate tasks within text files. Throughout the lessons, I worked with commands to search, replace, and organize data efficiently, which allowed me to understand how to manipulate text data in a more advanced way.
+
+---
+
+## What I Learned
+
+### File Manipulation Commands
+
+- **cat**: Used to display the content of files in the terminal.
+- **wc**: Used to count lines, words, and characters in files.
+- **grep**: Used to search for specific patterns within files, using regular expressions for complex searches.
+- **sed**: Used to replace or modify text within a file.
+- **echo**: Used to print text in the terminal and manipulate output, including redirecting it to files.
+- **touch**: Used to create empty files or update the modification date of existing files.
+- **diff**: Used to compare two files and show the differences between them.
+
+### Input and Output Redirection
+
+- Used `>` to redirect the output of a command to a file (overwriting the content).
+- Used `>>` to append output to a file without overwriting it.
+- Used `<` to redirect the input of a file to a command.
+
+### Pipe Usage (`|`)
+
+- Redirected the output of one command to the input of another, allowing me to chain commands to obtain more complex results. Example: `cat file.txt | grep 'pattern'`.
+
+### Regular Expressions
+
+- Learned how to use regular expressions in `grep` and `sed` to search for and replace complex patterns within files. Example: `grep 'cat[a-z]*' filename.txt` to search for words starting with "cat".
+
+### Automation with Scripts
+
+- Used a Bash script to automate the process of translating "Kitty Ipsum" to "Doggy Ipsum", utilizing `sed` to perform multiple text replacements efficiently.
+- Learned how to manipulate input and output within scripts, enabling me to work with text files more smoothly and dynamically.
+
+### File Comparison
+
+- Used `diff` to compare files and find differences between them, and learned to use options like `--color` to improve output readability.
+
+### Improving Readability
+
+- Used options like `--color` in `grep` and `diff` to highlight differences and make it easier to identify patterns within files.
+
+## Summary
+
+This project taught me how to manipulate text files in an advanced way using Bash. I learned how to search and replace patterns within files, count words and lines, and compare files to find differences. I also gained experience in creating scripts to automate repetitive tasks and improve efficiency when working with text files in the terminal.
+
+---
+
 # World Cup - Examination #2
 
 ## Project Description
