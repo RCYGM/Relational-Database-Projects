@@ -14,6 +14,42 @@ Below, I will present my learning path, organized from the most recent course to
 
 ---
 
+# Bike Rental Shop | Course #7 - 210 Lessons
+
+## Project Description
+
+In this project, I improved my experience by integrating SQL with Bash scripts to create a fully functional bike rental application. The goal was to develop an application that allows managing bike rentals, interacting with databases, querying for information about available bikes, and managing them through an interactive command-line system. Throughout the lessons, I worked with database tables, SQL queries, and user interaction handling, which allowed me to automate tasks and improve process efficiency.
+
+---
+
+## What I Improved in My Experience
+
+### Creating and Managing Tables in a Database
+
+- **Table Definition**: I improved my experience by creating and managing tables in a database, such as **bikes**, **customers**, and **rentals**, to store information about bikes, customers, and rentals.
+
+### Performing SQL Queries
+
+- **SQL Queries**: I enhanced my ability to perform advanced SQL queries to retrieve data from the database, such as available bikes, customers who rented bikes, and bikes that were returned.
+
+### User Interaction in the Script
+
+- **User Input**: I improved my experience interacting with the user, receiving inputs like the customer’s phone number and bike ID, and using that information to interact with the database.
+
+### Updating Records in the Database
+
+- **Updating Records**: I improved my ability to update records in the database, such as **date_returned** and **available**, to reflect the updated rental status when a bike was returned.
+
+### Control Flow in Bash
+
+- **Flow Control**: I improved my understanding of control structures in Bash, such as **if**, **else**, and **while**, to manage interactions and processes in the rental application.
+
+## Summary
+
+This project allowed me to combine several previously learned skills into one workflow to create a fully functional bike rental application. I improved my experience in database management, advanced SQL querying, user interaction, real-time record updating, and using control structures in Bash to automate processes and enhance efficiency in managing rented and returned bikes.
+
+---
+
 # Kitty Ipsum Translator Project | Course #6 - 140 Lessons
 
 ## Project Description
