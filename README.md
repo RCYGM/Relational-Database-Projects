@@ -14,6 +14,26 @@ Below, I will present my learning path, organized from the most recent course to
 
 ---
 
+# Castle Script | Course #8 - 40 Lessons
+
+This project is a simple Bash script that draws a castle in the terminal. It demonstrates basic terminal commands, text manipulation, and editing files with Nano.
+
+## Features
+
+- Creates a castle design with multiple levels, windows, and a door.
+- Includes a welcome message displayed above the castle.
+- Uses the `echo` command to print structured text.
+
+## What I Improved
+
+- Using **Nano** to create and edit files in the terminal.
+- Fundamentals of Bash scripting with the `echo` command.
+- Navigating and managing files from the terminal.
+- Cutting, pasting, and saving changes using Nano commands.
+- Executing scripts in Bash with `bash filename`.
+
+---
+
 # Salon Appointment System Examination #3
 
 This project demonstrates my ability to build a basic appointment system for a beauty salon using Bash and PostgreSQL. Through this exam, my skills in database management, task automation with scripts, and creating functional interaction flows are certified.
