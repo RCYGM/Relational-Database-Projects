@@ -14,6 +14,33 @@ Below, I will present my learning path, organized from the most recent course to
 
 ---
 
+# Salon Appointment System Examination #3
+
+This project demonstrates my ability to build a basic appointment system for a beauty salon using Bash and PostgreSQL. Through this exam, my skills in database management, task automation with scripts, and creating functional interaction flows are certified.
+
+## Skills Evaluated
+
+### Database Management
+
+- Creation of a relational database with structured and normalized tables (`customers`, `services`, `appointments`).
+- Configuration of primary and foreign keys to ensure data integrity.
+- Implementation of constraints such as unique values and non-nullable columns.
+
+### Bash Automation
+
+- Connection to a PostgreSQL database from a Bash script using `psql`.
+- Execution of dynamic queries to display, insert, and retrieve data.
+- Management of user inputs to register customers and schedule appointments.
+- Error handling for invalid inputs, ensuring the functionality of the system.
+
+### User Interaction
+
+- Generation of a list of services fetched directly from the database.
+- Logical flow to validate selections and perform specific actions based on the provided inputs.
+- Creation of clear and personalized confirmation messages for users.
+
+---
+
 # Bike Rental Shop | Course #7 - 210 Lessons
 
 ## Project Description
