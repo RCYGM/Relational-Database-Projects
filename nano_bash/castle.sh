@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "
 Welcome to my castle
 "
