@@ -16,7 +16,7 @@ Below, I will present my learning path, organized from the most recent course to
 
 # Number Guessing Game - Final Exam #5
 
-[View the repository here](https://github.com/RCYGM/number_guessing_game)
+[View the repository here](https://github.com/RCYGM/number-guessing-game)
 
 This project demonstrates my ability to design, manage, and query a relational database using PostgreSQL and Bash. The goal is to create a program that allows users to guess a randomly generated secret number between 1 and 1000. Throughout this project, my skills in task automation, user interaction, and strong version control practices were evaluated.
 
